@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "vowel",
+      "setup": "",
+      "run": "./a.out",
+      "input": "a",
+      "output": "a is a vowel",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
