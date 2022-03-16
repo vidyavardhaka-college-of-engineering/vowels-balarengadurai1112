@@ -5,7 +5,7 @@ int main()
     char *p;
 
     printf("Enter any char: ");
-    
+    gets(str);
 
     //assign base address of char array to pointer
     p=str;
