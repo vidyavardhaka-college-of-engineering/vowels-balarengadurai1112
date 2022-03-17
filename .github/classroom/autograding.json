@@ -1,11 +1,21 @@
 {
   "tests": [
     {
-      "name": "vowel",
-      "setup": "",
+      "name": "pg1.c",
+      "setup": "cc pg1.c",
       "run": "./a.out",
       "input": "a",
       "output": "a is a vowel",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "pg2.c",
+      "setup": "cc pg2.c",
+      "run": "./a.out",
+      "input": "1",
+      "output": "the value is 1",
       "comparison": "included",
       "timeout": 10,
       "points": 10
